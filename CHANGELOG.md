@@ -1,16 +1,16 @@
-## 🎉 Alley v2.2.9
+## 🎉 Alley v2.2.10
 
 ### 🔧 **PATCH RELEASE** - Bug Fixes & Improvements
 
-**Previous Version:** `2.2.8`
-**New Version:** `2.2.9`
+**Previous Version:** `2.2.9`
+**New Version:** `2.2.10`
 
 ### 📝 Changes:
 
-- chore: passed the player's name as a constructor argument to Profile during login. The previous logic relying on Bukkit.getOfflinePlayer(uuid).getName() could return null for players joining for the very first time, causing a validation error when the new profile was immediately saved to the database. (014ced4c)
+- chore: update revere repo url (733a3f9a)
 
 ---
-**Download:** [Alley-2.2.9.jar](https://github.com/RevereInc/alley-practice/releases/download/v2.2.9/Alley-2.2.9.jar)
+**Download:** [Alley-2.2.10.jar](https://github.com/revere-group/alley-practice/releases/download/v2.2.10/Alley-2.2.10.jar)
 
 **Installation:** Place the JAR file in your `plugins/` folder and restart your server.
 
